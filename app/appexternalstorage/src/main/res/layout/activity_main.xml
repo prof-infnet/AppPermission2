@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="callWriteOnExternalStorage"
+        android:text="@string/escrever_no_armazenamento_externo" />
+
+    <Button
+        android:id="@+id/bt_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="callReadFromExternalStorage"
+        android:text="@string/ler_no_armazenamento_externo" />
+
+    <Button
+        android:id="@+id/bt_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="callAccessLocation"
+        android:text="@string/acessar_a_localizacao" />
+
+</LinearLayout>

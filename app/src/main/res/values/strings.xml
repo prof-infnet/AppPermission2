@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppPermission</string>
+    <string name="logotipo_da_infnet">logotipo da infnet</string>
+    <string name="carregar_imagem">Carregar Imagem</string>
+</resources>
